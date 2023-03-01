@@ -1,4 +1,4 @@
-# EasyXLS Excel Library for .NET
+# EasyXLS Excel Library for .NET/COM+/Java
 ![EasyXLS](https://raw.githubusercontent.com/EasyXLS/EasyXLS.samples/main/images/easyxls-excel-library-component-small.jpg "EasyXLS")
 
 ## About
