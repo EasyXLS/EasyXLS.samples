@@ -6,7 +6,7 @@
 
 [EasyXLS for .NET](https://www.easyxls.com/net-excel-library) is compatible with C#, VB.NET, C++.NET, ASP.NET web pages, Windows Forms or Windows Services and Python.    
 [EasyXLS for COM+](https://www.easyxls.com/component-excel-library) is compatible with all programming languages that support COM technology like PHP, Clasic ASP, C++, VB6 or VBScript.  
-[EasyXLS for Java](https://www.easyxls.com/java-excel-library) is compatible with Java, ColdFusion, Python, Java Server Pages or Java Server Faces.  
+[EasyXLS for Java](https://www.easyxls.com/java-excel-library) is compatible with Java, ColdFusion, Python, PHP, Java Server Pages or Java Server Faces.  
 
 EasyXLS library  is designed to be easy to use, with a straightforward API and comprehensive documentation.  It is also highly performant, with optimized algorithms for handling large Excel files.
 
@@ -98,6 +98,35 @@ $xlsTable->easy_getCell("A1")->setValue("Hello world!");
 
 // Create Excel file
 $workbook->easy_WriteXLSXFile("C:\Samples\Excel file.xlsx");
+```
+
+## Getting Started in Java
+
+### **Step 1**: Download EasyXLS 
+
+Download JAR file from [easyxls.com](https://www.easyxls.com/trials#java).
+
+### **Step 2**: License file setup   
+
+Generate a trial license file from [EasyXLS trials](https://www.easyxls.com/trials#java) page. The trial license is valid for 30-days.  
+Setup the license file into your project using the [guidelines](https://www.easyxls.com/manual/licensing/license-setup.html#setup-license-java).
+
+### **Step 3**: Start coding
+
+You can execute the code below in Java to create an Excel file having two sheets and a value set in "A1" cell.
+
+```
+// Create an instance of the class that creates Excel files, having two sheets
+ExcelDocument workbook = new ExcelDocument(2);
+
+// Get the table of data for the first sheet
+ExcelTable xlsTable = ((ExcelWorksheet)workbook.easy_getSheetAt(0)).easy_getExcelTable();
+
+// Add data in A1 cell
+xlsTable.easy_getCell("A1").setValue("Hello world!");
+
+// Create Excel file
+workbook.easy_WriteXLSXFile("C:\\Samples\\Excel.xlsx");
 ```
 
 ## Documentation
