@@ -6,7 +6,6 @@
 
 [EasyXLS for .NET](https://www.easyxls.com/net-excel-library) is compatible with C#, VB.NET, C++.NET, ASP.NET web pages, Windows Forms or Windows Services and Python.    
 [EasyXLS for COM+](https://www.easyxls.com/component-excel-library) is compatible with all programming languages that support COM technology like PHP, Clasic ASP, C++, VB6 or VBScript.  
-
 [EasyXLS for Java](https://www.easyxls.com/java-excel-library) is compatible with Java, ColdFusion, Python, Java Server Pages or Java Server Faces.  
 
 EasyXLS library  is designed to be easy to use, with a straightforward API and comprehensive documentation.  It is also highly performant, with optimized algorithms for handling large Excel files.
