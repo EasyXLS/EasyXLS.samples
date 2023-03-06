@@ -71,7 +71,7 @@ workbook.easy_WriteXLSXFile("C:\\Samples\\Excel.xlsx");
 
 ### **Step 1**: Download and install EasyXLS
 
-Download installer from [easyxls.com]([https://www.nuget.org/packages/EasyXLS.Professional](https://www.easyxls.com/trials#com) and run the setup.
+Download installer from [easyxls.com](https://www.nuget.org/packages/EasyXLS.Professional](https://www.easyxls.com/trials#com) and run the setup.
 
 ### **Step 2**: License file setup   
 
@@ -87,8 +87,8 @@ You can execute the code below in PHP to create an Excel file having two sheets 
 $workbook = new COM("EasyXLS.ExcelDocument");
 
 // Create two sheets
-$workbook->easy_addWorksheet_2("First tab");
-$workbook->easy_addWorksheet_2("Second tab");
+$workbook->easy_addWorksheet_2("First sheet");
+$workbook->easy_addWorksheet_2("Second sheet");
 
 // Get the table of data for the first worksheet
 $xlsTable = $workbook->easy_getSheetAt(0)->easy_getExcelTable();
