@@ -36,11 +36,11 @@ EasyXLS library  is designed to be easy to use, with a straightforward API and c
 **Web:** HTML, mso attributes, CSS  
 **Text:** CSV, TXT  
 
-## Getting Started
+## Getting Started in .NET
 
 ### **Step 1**: Download and install EasyXLS nuget package  
 
-Download EasyXLS from upper link and execute below line in Package Manager Console from Visual Studio:  
+Download EasyXLS from [nuget.org](https://www.nuget.org/packages/EasyXLS.Professional) and execute below line in Package Manager Console from Visual Studio:  
 ```Install-Package easyxls.professional```  
 or search for EasyXLS in NuGet Package Manager in Visual Studio and install.
 
