@@ -13,7 +13,7 @@ EasyXLS library  is designed to be easy to use, with a straightforward API and c
 ## EasyXLS Features
 
 * [Create Excel files](https://www.easyxls.com/manual/basics/create-excel-file.html), new files or from Excel templates
-* [Import Excel data](https://www.easyxls.com/manual/FAQ/import-excel-in-dot-net.html), modify Excel file and resave the file
+* [Import Excel data](https://www.easyxls.com/manual/basics/import-from-xlsx-file-format.html), modify Excel file and resave the file
 * [Convert Excel files](https://www.easyxls.com/manual/basics/convert-html-to-excel.html), between MS Excel file formats (XLSX, XLSM, XLSB, XLS and SpreadsheetML) and also text formats (HTML, XML, CSV and TXT).
 * [Format cells](https://www.easyxls.com/manual/basics/format-excel-cells.html), rows, and columns with background, foreground, fonts, borders, alignments, number and date formats and other formatting elements. Conditional formatting is also supported.
 * Multiple sheets 
@@ -27,7 +27,7 @@ EasyXLS library  is designed to be easy to use, with a straightforward API and c
 * [Encryption and password protection](https://www.easyxls.com/manual/basics/password-protected-excel-file.html) to protect the Excel file from unauthorized access, [protect sheet data](https://www.easyxls.com/manual/basics/excel-protect-sheet.html) inside sheet from altering
 * VB code and [macros](https://www.easyxls.com/manual/basics/excel-macros-vba-project.html) preservation
 * File properties with details about the author and company that generated the Excel file or custom properties
-* Import/export from data structures, SQL databases, lists of data, [export DataTable to Excel](https://www.easyxls.com/manual/FAQ/export-datatable-to-excel.html), [import Excel to DataTable](https://www.easyxls.com/manual/FAQ/import-excel-to-datatable.html), import/export from GridView or DataGridView
+* Import/export from data structures, SQL databases, lists of data, [export DataTable to Excel](https://www.easyxls.com/manual/FAQ/export-datatable-to-excel.html), [import Excel to DataTable](https://www.easyxls.com/manual/FAQ/import-excel-to-datatable.html), import/export from GridView or DataGridView, import/export ResultSet to Excel
 
 ## Supported File Formats
 **MS Excel Open XML:** XLSX, XLSM  
