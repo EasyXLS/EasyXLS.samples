@@ -71,7 +71,7 @@ workbook.easy_WriteXLSXFile("C:\\Samples\\Excel.xlsx");
 
 ### **Step 1**: Download and install EasyXLS
 
-Download installer from [easyxls.com](https://www.nuget.org/packages/EasyXLS.Professional](https://www.easyxls.com/trials#com) and run the setup.
+Download installer from [easyxls.com](https://www.easyxls.com/trials#com) and run the setup.
 
 ### **Step 2**: License file setup   
 
