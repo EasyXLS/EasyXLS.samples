@@ -2,9 +2,12 @@
 ![EasyXLS](https://raw.githubusercontent.com/EasyXLS/EasyXLS.samples/main/images/easyxls-excel-library-component-small.jpg "EasyXLS")
 
 ## About
-[EasyXLS](https://www.easyxls.com) is an API to import, export and convert MS Excel files without Microsoft Excel installed from C#, VB.NET, C++.NET, ASP.NET web pages, Windows Forms or Windows Services.   
+[EasyXLS](https://www.easyxls.com) is an API to import, export and convert MS Excel files without Microsoft Excel installed from various programming languages. The Excel library is used for creating, reading and manipulating MS Excel files, including support for advanced features like formatting, formulas, charts, macros, images and pivot tables.  
 
-[EasyXLS for .NET](https://www.easyxls.com/net-excel-library) is used for creating, reading and manipulating MS Excel files, including support for advanced features like formatting, formulas, charts, macros, images and pivot tables.  
+[EasyXLS for .NET](https://www.easyxls.com/net-excel-library) is compatible with C#, VB.NET, C++.NET, ASP.NET web pages, Windows Forms or Windows Services and Python.   
+[EasyXLS for COM+](https://www.easyxls.com/component-excel-library) is compatible with all programming languages that supports COM technology like PHP, Clasic ASP, C++, VB6 or VBScript.  
+
+[EasyXLS for Java](https://www.easyxls.com/java-excel-library) is compatible with Java, ColdFusion, Python, Java Server Pages or Java Server Faces.  
 
 EasyXLS library  is designed to be easy to use, with a straightforward API and comprehensive documentation.  It is also highly performant, with optimized algorithms for handling large Excel files.
 
