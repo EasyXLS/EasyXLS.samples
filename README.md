@@ -67,6 +67,39 @@ xlsTable.easy_getCell("A1").setValue("Hello world!");
 workbook.easy_WriteXLSXFile("C:\\Samples\\Excel.xlsx");
 ```
 
+## Getting Started in COM+
+
+### **Step 1**: Download and install EasyXLS
+
+Download installer from [easyxls.com]([https://www.nuget.org/packages/EasyXLS.Professional](https://www.easyxls.com/trials#com) and run the setup.
+
+### **Step 2**: License file setup   
+
+Generate a trial license file from [EasyXLS trials](https://www.easyxls.com/trials#com) page. The trial license is valid for 30-days.  
+Setup the license file into your project using the [guidelines](https://www.easyxls.com/manual/licensing/license-setup.html#setup-license-com).
+
+### **Step 3**: Start coding
+
+You can execute the code below in PHP to create an Excel file having two sheets and a value set in "A1" cell.
+
+```
+// Create an instance of the class that creates Excel files
+$workbook = new COM("EasyXLS.ExcelDocument");
+
+// Create two sheets
+$workbook->easy_addWorksheet_2("First tab");
+$workbook->easy_addWorksheet_2("Second tab");
+
+// Get the table of data for the first worksheet
+$xlsTable = $workbook->easy_getSheetAt(0)->easy_getExcelTable();
+
+// Add data in A1 cell
+$xlsTable->easy_getCell("A1")->setValue("Hello world!");
+
+// Create Excel file
+$workbook->easy_WriteXLSXFile("C:\Samples\Excel file.xlsx");
+```
+
 ## Documentation
 EasyXLS website provides detailed information on how to use the various features and functionalities of the EasyXLS library, including a complete [User Guide](https://www.easyxls.com/manual), [tutorials](https://www.easyxls.com/manual/tutorials/easyxls-tutorials.html), [demos](https://www.easyxls.com/net-excel-library#demo), and [API documentation](https://www.easyxls.com/manual/API_Documentation/index.html).
 
