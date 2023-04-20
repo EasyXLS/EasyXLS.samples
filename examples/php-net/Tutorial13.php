@@ -1,6 +1,6 @@
 <?php
 	/*=================================================================
-	 | Tutorial 13
+	 | Tutorial 13 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP having
 	 | multiple sheets. The second sheet contains a named range.

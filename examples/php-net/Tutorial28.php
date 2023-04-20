@@ -1,6 +1,6 @@
 <?php
 	/*==============================================================
-	 | Tutorial 28
+	 | Tutorial 28 
 	 |
 	 | This tutorial shows how to export data to XLS file that has
 	 | multiple sheets in PHP. The first sheet is filled with data.

@@ -1,6 +1,6 @@
 <?php
 	/*==========================================================================
-	 | Tutorial 08
+	 | Tutorial 08 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP having
 	 | multiple sheets. The first sheet is filled with data

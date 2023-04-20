@@ -1,6 +1,6 @@
 <?php
 	/*=========================================================
-	 | Tutorial 20
+	 | Tutorial 20 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP
 	 | and apply an auto-filter to a range of cells. 

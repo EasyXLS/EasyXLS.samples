@@ -1,6 +1,6 @@
 <?php
 	/*==============================================================
-	 | Tutorial 31
+	 | Tutorial 31 
 	 |
 	 | This tutorial shows how to export data to HTML file in PHP.
 	  ============================================================*/

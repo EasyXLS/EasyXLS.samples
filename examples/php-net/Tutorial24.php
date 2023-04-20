@@ -1,6 +1,6 @@
 <?php
 	/*=============================================================
-	 | Tutorial 24
+	 | Tutorial 24 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP and
 	 | to create a chart in a worksheet.

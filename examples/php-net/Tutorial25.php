@@ -1,6 +1,6 @@
 <?php
 	/*=============================================================
-	 | Tutorial 25
+	 | Tutorial 25 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP and
 	 | to create a pivot table in a worksheet.

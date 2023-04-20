@@ -1,6 +1,6 @@
 <?php
 	/*======================================================================================
-	 | Tutorial 15
+	 | Tutorial 15 
 	 |
 	 This tutorial shows how to create an Excel file with hyperlinks in PHP.
 	 |

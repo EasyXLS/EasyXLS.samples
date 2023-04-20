@@ -1,6 +1,6 @@
 <?php
 	/*=========================================================================
-	 | Tutorial 32
+	 | Tutorial 32 
 	 |
 	 | This tutorial shows how to export data to XML Spreadsheet file in PHP.
 	  =======================================================================*/

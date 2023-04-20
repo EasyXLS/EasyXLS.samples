@@ -1,6 +1,6 @@
 <?php
 	/*==============================================================
-	 | Tutorial 07
+	 | Tutorial 07 
 	 |
 	 | This code sample shows how to export an Excel file in PHP
 	 | having multiple sheets. The first sheet is filled with data

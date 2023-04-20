@@ -1,6 +1,6 @@
 <?php
 	/*==================================================================
-	 | Tutorial 02
+	 | Tutorial 02 
 	 |
 	 | This code sample shows how to export list to Excel file in PHP.
 	 | The list contains data from a SQL database.

@@ -1,6 +1,6 @@
 <?php
 	/*=============================================================================
-	 | Tutorial 17
+	 | Tutorial 17 
 	 |
 	 | This tutorial shows how to create an Excel file with groups on rows in PHP.
 	 | The Excel file has two worksheets. The first one is full with data and

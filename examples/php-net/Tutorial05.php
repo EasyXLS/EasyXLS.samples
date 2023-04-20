@@ -1,6 +1,6 @@
 <?php
 	/*=====================================================================
-	 | Tutorial 05
+	 | Tutorial 05 
 	 |
 	 | This code sample shows how to export data to Excel file in PHP and 
 	 | format the cells. The Excel file has multiple worksheets.

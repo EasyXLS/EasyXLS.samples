@@ -1,6 +1,6 @@
 <?php
 	/*================================================================================
-	 | Tutorial 27
+	 | Tutorial 27 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP and
 	 | encrypt the Excel file by setting the password required for opening the file.

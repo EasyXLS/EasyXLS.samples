@@ -1,6 +1,6 @@
 <?php
 	/*=============================================================
-	 | Tutorial 30
+	 | Tutorial 30 
 	 |
 	 | This tutorial shows how to export data to CSV file in PHP.
 	  ===========================================================*/

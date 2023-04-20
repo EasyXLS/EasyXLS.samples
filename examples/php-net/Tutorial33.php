@@ -1,7 +1,6 @@
 <?php
 	/*===========================================================================
-
-	 | Tutorial 33
+	 | Tutorial 33 
 	 |
 	 | This tutorial shows how to set document properties for Excel file in PHP, 
 	 | like 'Subject' property for summary information, 'Manager' property for

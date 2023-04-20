@@ -1,6 +1,6 @@
 <?php
 	/*======================================================================
-	 | Tutorial 18
+	 | Tutorial 18 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP and
 	 | freeze first row from the sheet. The Excel file has multiple sheets.

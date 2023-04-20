@@ -1,6 +1,6 @@
 <?php
 	/*==================================================================================
-	 | Tutorial 10
+	 | Tutorial 10 
 	 |
 	 | This tutorial shows how to export an Excel file with a merged cell range in PHP.
 	  ================================================================================*/

@@ -1,6 +1,6 @@
 <?php
 	/*==============================================================
-	 | Tutorial 26
+	 | Tutorial 26 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP and
 	 | to create a pivot chart. The pivot chart is added to a

@@ -1,6 +1,6 @@
 <?php
 	/*====================================================================
-	 | Tutorial 16
+	 | Tutorial 16 
 	 |
 	 | This tutorial shows how to create an Excel file with image in PHP
 	 | The Excel file has multiple sheets.

@@ -1,6 +1,6 @@
 <?php
 	/*==============================================================
-	 | Tutorial 11
+	 | Tutorial 11 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP that
 	 | has a cell that contains SUM formula for a range of cells.

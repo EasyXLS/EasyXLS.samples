@@ -1,6 +1,6 @@
 <?php
 	/*================================================================
-	 | Tutorial 14
+	 | Tutorial 14 
 	 |
 	 | This tutorial shows how to create an Excel file in PHP having
 	 | a sheet and conditional formatting for cell ranges.
