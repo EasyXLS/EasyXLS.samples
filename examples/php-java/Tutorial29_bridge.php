@@ -1,0 +1,62 @@
+<?php require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+
+	/*===============================================================
+	 | Tutorial 29
+	 |
+	 | This tutorial shows how to export data to XLSB file that has
+	 | multiple sheets in PHP. The first sheet is filled with data.
+	  ============================================================ */
+	
+	include("DataType.inc");
+
+	header("Content-Type: text/html");
+
+	echo "Tutorial 29<br>";
+	echo "----------<br>";
+	
+	// Create an instance of the class that exports Excel files
+	$workbook = new java("EasyXLS.ExcelDocument");
+	
+	// Create two sheets
+	$workbook->easy_addWorksheet("First tab");
+	$workbook->easy_addWorksheet("Second tab");
+
+	// Get the table of data for the first worksheet
+	$xlsFirstTable = $workbook->easy_getSheetAt(0)->easy_getExcelTable();
+
+	// Add data in cells for report header
+	for ($column=0; $column<5; $column++)
+	{
+		$xlsFirstTable->easy_getCell(0,$column)->setValue("Column " . ($column + 1));
+		$xlsFirstTable->easy_getCell(0,$column)->setDataType($DATATYPE_STRING);
+	}
+
+	// Add data in cells for report values
+	for ($row=0; $row<100; $row++)
+	{
+		for ($column=0; $column<5; $column++)
+		{
+			$xlsFirstTable->easy_getCell($row+1,$column)->setValue("Data ".($row + 1).", ".($column + 1));
+			$xlsFirstTable->easy_getCell($row+1,$column)->setDataType($DATATYPE_STRING);
+		}
+	}
+	
+	// Set column widths
+	$xlsFirstTable->easy_getColumnAt(0)->setWidth(100);
+	$xlsFirstTable->easy_getColumnAt(1)->setWidth(100);
+	$xlsFirstTable->easy_getColumnAt(2)->setWidth(100);
+	$xlsFirstTable->easy_getColumnAt(3)->setWidth(100);
+	
+	// Export the XLSB file
+	echo "Writing file: C:\Samples\Tutorial29 - export XLSB file.xlsb<br>";
+	$workbook->easy_WriteXLSBFile("C:\Samples\Tutorial29 - export XLSB file.xlsb");
+	
+	// Confirm export of Excel file
+	if ($workbook->easy_getError() == "")
+		echo "File successfully created.";
+	else
+		echo "Error encountered: " . $workbook->easy_getError();
+		
+	// Dispose memory
+	$workbook->Dispose();
+?>
