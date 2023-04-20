@@ -1,6 +1,6 @@
 //package testexceljava;
 
-/*----------------------------------------------------------------------------
+/*---------------------------------------------------------------------------
  | Tutorial 37                                                  
  |                                                                
  | This tutorial shows how to read an Excel XLS file in Java (the

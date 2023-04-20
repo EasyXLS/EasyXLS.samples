@@ -1,6 +1,6 @@
 //package testexceljava;
 
-/*-----------------------------------------------------------------------
+/*----------------------------------------------------------------------
  | Tutorial 40
  |
  | This tutorial shows how to convert HTML file to Excel in Java. The

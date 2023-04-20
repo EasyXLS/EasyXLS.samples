@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.sql.ResultSet;
 import EasyXLS.*;
 
-/*------------------------------------------------------------------------
+/*-----------------------------------------------------------------------
  | Tutorial 34
  | 
  | This tutorial shows how to import Excel to ResultSet in Java. The data 

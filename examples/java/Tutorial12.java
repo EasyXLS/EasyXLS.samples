@@ -2,7 +2,7 @@
 
 import EasyXLS.*;
 
-/*-----------------------------------------------------------------
+/*----------------------------------------------------------------
  | Tutorial 12
  | 
  | This tutorial shows how to create an Excel file in Java having

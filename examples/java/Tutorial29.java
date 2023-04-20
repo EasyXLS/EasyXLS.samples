@@ -3,7 +3,7 @@
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*----------------------------------------------------------------
+/*---------------------------------------------------------------
  | Tutorial 29
  |
  | This tutorial shows how to export data to XLSB file that has

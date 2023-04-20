@@ -5,7 +5,7 @@ import java.sql.*;
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*-----------------------------------------------------------------------
+/*----------------------------------------------------------------------
  | Tutorial 01
  |
  | This code sample shows how to export ResultSet to Excel file in Java.

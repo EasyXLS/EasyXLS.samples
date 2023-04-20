@@ -3,7 +3,7 @@
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*----------------------------------------------------------------------------
+/*---------------------------------------------------------------------------
  | Tutorial 33
  |
  | This tutorial shows how to set document properties for Excel file in Java,

@@ -3,7 +3,7 @@
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*---------------------------------------------------------------
+/*--------------------------------------------------------------
  | Tutorial 28
  |
  | This tutorial shows how to create data to XLS file that has

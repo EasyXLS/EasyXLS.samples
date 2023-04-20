@@ -3,7 +3,7 @@
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*--------------------------------------------------------------
+/*-------------------------------------------------------------
  | Tutorial 31
  | 
  | This tutorial shows how to export data to HTML file in Java.

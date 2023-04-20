@@ -3,7 +3,7 @@
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*---------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------
  | Tutorial 17
  |
  | This tutorial shows how to create an Excel file with groups on rows in Java.

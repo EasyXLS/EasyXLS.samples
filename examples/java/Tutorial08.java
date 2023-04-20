@@ -4,7 +4,7 @@ import java.awt.Color;
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*-----------------------------------------------------------------
+/*----------------------------------------------------------------
  | Tutorial 08
  |
  | This tutorial shows how to create an Excel file in Java having

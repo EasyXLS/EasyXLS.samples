@@ -6,7 +6,7 @@ import java.awt.Color;
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*------------------------------------------------------------------------
+/*-----------------------------------------------------------------------
  | Tutorial 02
  |
  | This code sample shows how to export ResultSet to Excel file in Java.

@@ -3,7 +3,7 @@
 import EasyXLS.*;
 import EasyXLS.Constants.*;
 
-/*-------------------------------------------------------------------
+/*------------------------------------------------------------------
 | Tutorial 19
  |
  | This tutorial shows how to create an Excel file in Java having

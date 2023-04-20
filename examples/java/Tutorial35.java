@@ -1,6 +1,6 @@
 //package testexceljava;
 
-/*---------------------------------------------------------------------
+/*--------------------------------------------------------------------
  | Tutorial 35
  | 
  | This tutorial shows how to import Excel sheet to ResultSet in Java.

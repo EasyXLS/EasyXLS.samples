@@ -3,7 +3,7 @@
 import EasyXLS.*;
 import EasyXLS.Charts.*;
 
-/*--------------------------------------------------------------
+/*-------------------------------------------------------------
  | Tutorial 24
  |
  | This tutorial shows how to create an Excel file in Java and

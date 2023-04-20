@@ -4,7 +4,7 @@ import EasyXLS.*;
 import EasyXLS.Constants.*;
 import EasyXLS.PivotTables.*;
 
-/*--------------------------------------------------------------
+/*-------------------------------------------------------------
 | Tutorial 25
  |
  | This tutorial shows how to create an Excel file in Java and
