@@ -1,0 +1,10 @@
+Attribute VB_Name = "Footer"
+Public FOOTER_POSITION_LEFT As String
+Public FOOTER_POSITION_CENTER As String
+Public FOOTER_POSITION_RIGHT As String
+
+Sub Initialize()
+	FOOTER_POSITION_LEFT = "L"
+	FOOTER_POSITION_CENTER = "C"
+	FOOTER_POSITION_RIGHT = "R"
+End Sub

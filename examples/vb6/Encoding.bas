@@ -1,0 +1,16 @@
+Attribute VB_Name = "Encoding"
+Public ENCODING_ASCII As String
+Public ENCODING_BIG_ENDIAN_UNICODE As String
+Public ENCODING_UTF16 As String
+Public ENCODING_UTF32 As String
+Public ENCODING_UTF7 As String
+Public ENCODING_UTF8 As String
+
+Sub Initialize()
+	ENCODING_ASCII = "ASCII"
+	ENCODING_BIG_ENDIAN_UNICODE = "unicodeFFFE"
+	ENCODING_UTF16 = "UTF-16"
+	ENCODING_UTF32 = "UTF-32"
+	ENCODING_UTF7 = "UTF-7"
+	ENCODING_UTF8 = "UTF-8"
+End Sub
