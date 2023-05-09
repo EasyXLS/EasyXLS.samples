@@ -1,0 +1,8 @@
+<?php
+$HYPERLINKTYPE_NOHYPERLINK = "nohyperlink";
+$HYPERLINKTYPE_URL = "url";
+$HYPERLINKTYPE_FILE = "file";
+$HYPERLINKTYPE_UNC = "unc";
+$HYPERLINKTYPE_CELL = "cell";
+$HYPERLINKTYPE_UNKNOWN = "unknown";
+?>

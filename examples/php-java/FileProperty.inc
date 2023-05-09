@@ -1,0 +1,11 @@
+<?php
+$VT_NULL = 1;
+$VT_I2 = 2;
+$VT_I4 = 3;
+$VT_NUMBER = 5;
+$VT_BOOL = 11;
+$VT_VARIANT = 12;
+$VT_LPSTR = 30;
+$VT_FILETIME = 64;
+$VT_BLOB = 65;
+?>
