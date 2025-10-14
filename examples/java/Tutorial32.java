@@ -48,7 +48,7 @@ public class Tutorial32{
 
       // Export XML Spreadsheet file
       System.out.println("Writing file: C:\\Samples\\Tutorial32 - export XML spreadsheet file.xml");
-      workbook.easy_WriteXMLFile("C:\\Samples\\Tutorial32 - export XML spreadsheet filerial32.xml");
+      workbook.easy_WriteXMLFile("C:\\Samples\\Tutorial32 - export XML spreadsheet file.xml");
 
       // Confirm export of XML file
       if (workbook.easy_getError().equals(""))
@@ -64,3 +64,4 @@ public class Tutorial32{
     }
   }
 }
+
