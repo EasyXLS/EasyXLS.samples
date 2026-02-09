@@ -29,9 +29,10 @@
 			next
 		next
     else
-		response.Write("Error reading file C:\Samples\Tutorial09.xls " & workbook.easy_getError())
+		response.Write("Error reading file C:\Samples\Tutorial09.xlsx " & workbook.easy_getError())
     end if
 
 	' Dispose memory
 	workbook.Dispose
 %>
+
