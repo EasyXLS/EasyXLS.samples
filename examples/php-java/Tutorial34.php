@@ -35,9 +35,10 @@ echo $rows->size();
 		}
 	}	
 	else
-		echo "Error reading file C:\Samples\Tutorial09_bridge.xls " . $workbook->easy_getError();
+		echo "Error reading file C:\Samples\Tutorial09_bridge.xlsx " . $workbook->easy_getError();
 
 	// Dispose memory
 	$workbook->Dispose();
 ?>
+
 
