@@ -53,7 +53,7 @@ int main()
 			}
 			else
 			{
-				printf("\nError reading file C:\\Samples\\Tutorial09.xls %s\n", (LPCSTR)sError); 
+				printf("\nError reading file C:\\Samples\\Tutorial09.xlsx %s\n", (LPCSTR)sError); 
 			}
 			
 			// Dispose memory
@@ -73,3 +73,4 @@ int main()
 	_getch();
 	return 0;
 }
+
