@@ -33,9 +33,10 @@
 		}
 	}	
 	else
-		echo "Error reading file C:\Samples\Tutorial09.xls " . $workbook->easy_getError();
+		echo "Error reading file C:\Samples\Tutorial09.xlsx " . $workbook->easy_getError();
 
 	// Dispose memory
 	$workbook->Dispose();
 ?>
+
 
