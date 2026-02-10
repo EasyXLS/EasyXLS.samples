@@ -26,7 +26,7 @@
 			Next
 		Next
     Else
-		WScript.StdOut.Write(vbcrlf & "Error reading file C:\Samples\Tutorial09.xls " & workbook.easy_getError())
+		WScript.StdOut.Write(vbcrlf & "Error reading file C:\Samples\Tutorial09.xlsx " & workbook.easy_getError())
     End If
     
     ' Dispose memory
@@ -34,3 +34,4 @@
 
     Wscript.StdOut.Write("Press Enter to exit ...")
     Wscript.StdIn.ReadLine
+
