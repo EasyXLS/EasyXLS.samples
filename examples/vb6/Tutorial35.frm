@@ -60,11 +60,12 @@ Private Sub Form_Load()
             Next
         Next
     Else
-        Me.Text1 = Me.Text1 & vbCrLf & "Error reading file C:\Samples\Tutorial09.xls " & vbCrLf & workbook.easy_getError()
+        Me.Text1 = Me.Text1 & vbCrLf & "Error reading file C:\Samples\Tutorial09.xlsx " & vbCrLf & workbook.easy_getError()
     End If
 
     ' Dispose memory
     workbook.Dispose
 End Sub
+
 
 
